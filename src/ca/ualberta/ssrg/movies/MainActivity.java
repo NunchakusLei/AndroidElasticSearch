@@ -80,6 +80,7 @@ public class MainActivity extends Activity {
 		// Refresh the list when visible
 		// TODO: Search all
 		
+		
 	}
 	
 	/** 
@@ -132,6 +133,7 @@ public class MainActivity extends Activity {
 
 	class SearchThread extends Thread {
 		// TODO: Implement search thread
+		
 		
 	}
 

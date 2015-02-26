@@ -5,6 +5,9 @@ public class SearchHit<T> {
 	private String _type;
 	private String _id;
 	private String _version;
+	
+	private Float _score;
+	
 	private boolean found;
 	private T _source;
 
@@ -65,6 +68,18 @@ public class SearchHit<T> {
 		return "SimpleElasticSearchResponse [_index=" + _index + ", _type="
 				+ _type + ", _id=" + _id + ", _version=" + _version
 				+ ", found=" + found + ", _source=" + _source + "]";
+	}
+
+	public Float get_score()
+	{
+
+		return _score;
+	}
+
+	public void set_score(Float _score)
+	{
+
+		this._score = _score;
 	}
 	
 	
